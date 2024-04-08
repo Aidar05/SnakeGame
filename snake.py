@@ -51,7 +51,7 @@ while running:
         apple_pos_x = round(random.randrange(10, screen_width-10), -1)
         apple_pos_y = round(random.randrange(10, screen_height-10), -1)
 
-        snake_size += 20
+        snake_size += 5
 
     # Покрывает все черным, чтобы перерисовать все 
     screen.fill((0, 0, 0))  
